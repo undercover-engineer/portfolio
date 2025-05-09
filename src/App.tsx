@@ -1,7 +1,11 @@
-import "./App.css";
+import Header from "./components/common/header";
 
 function App() {
-  return <h1 className="mx-auto text-teal-700 text-6xl">Portfolio</h1>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
