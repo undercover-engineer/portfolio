@@ -17,6 +17,7 @@
 }
 
 body{
+    height: 100dvh;
     font-family: var(--font-display);
     color: #000000;
     background-color: #ffffff;
