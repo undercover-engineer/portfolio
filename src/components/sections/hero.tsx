@@ -4,14 +4,22 @@ import { VerticalDivider } from "../common/verticalDivider";
 const SocialLinks = () => {
   return (
     <div className="text-[#8812d7] flex flex-col gap-y-6">
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://www.linkedin.com/in/melinda-mazongo/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="/src/assets/linkedin.svg"
           alt="LinkedIn logo"
           className="w-12 h-12"
         />
       </a>
-      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://github.com/undercover-engineer"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="/src/assets/github.svg"
           alt="GithHub logo"
