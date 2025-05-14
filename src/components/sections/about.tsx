@@ -1,4 +1,5 @@
 import SectionDivider from "../common/sectionDivider";
+import avatar from "../../../public/assets/logo.svg";
 
 export default function About() {
   return (
@@ -6,7 +7,7 @@ export default function About() {
       <SectionDivider title="About Me" />
       <div className="flex mt-10 justify-center xl:gap-x-10">
         <div className="w-11/12 md:w-3/5 lg:w-1/2 xl:w-2/5">
-          <p>
+          <p className="font-light max-sm:text-sm sm:max-w-2xl sm:text-xl">
             I'm a passionate Full-Stack Software Engineer. I specialize in
             building robust, scalable web applications using technologies like
             React, Node.js, and PostgreSQL. With over 4 years of experience,
@@ -22,7 +23,7 @@ export default function About() {
           </p>
         </div>
         <img
-          src="/public/assets/logo.svg"
+          src={avatar}
           alt="avatar"
           className="max-sm:hidden w-72 h-72 lg:pr-16"
         />

@@ -37,8 +37,8 @@ export default function ProjectCard({
       className="sticky h-dvh  flex flex-col justify-center items-center top-0"
     >
       <motion.div
-        className="flex bg-[#F1F4F9] mx-auto w-11/12 lg:max-w-9/12 gap-x-8 mb-8 pl-5 pr-2 py-4 rounded-lg relative -top-1/4 "
-        style={{ scale, top: `calc(-10% + ${i * 20}px)` }}
+        className="flex bg-[#F1F4F9] mx-auto w-11/12 lg:max-w-9/12 gap-x-8 mb-8 pl-5 pr-2 py-4 rounded-lg relative -top-1/4 border-2"
+        style={{ scale, borderColor: color, top: `calc(-10% + ${i * 20}px)` }}
       >
         <div className="overflow-hidden">
           <div
@@ -53,10 +53,10 @@ export default function ProjectCard({
           </div>
         </div>
         <div>
-          <h3 className="font-semibold text-2xl lg:text-3xl mb-3 lg:mb-5">
-            {title}
-          </h3>
-          <p className="text-xl font-normal pr-6 lg:pr-20">{description}</p>
+          <h2 className="text-2xl lg:text-3xl mb-3 lg:mb-5">{title}</h2>
+          <p className="max-sm:text-sm sm:max-w-2xl sm:text-xl font-light pr-6 lg:pr-20">
+            {description}
+          </p>
           <div className="space-x-12 my-3 lg:my-5 font-medium">
             {tags.map((tag, index) => (
               <span key={index} className="tag">

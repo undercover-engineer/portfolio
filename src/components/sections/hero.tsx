@@ -10,7 +10,7 @@ const SocialLinks = () => {
         rel="noopener noreferrer"
       >
         <img
-          src="/public/assets/linkedin.svg"
+          src="/assets/linkedin.svg"
           alt="LinkedIn logo"
           className="w-12 h-12"
         />
@@ -21,7 +21,7 @@ const SocialLinks = () => {
         rel="noopener noreferrer"
       >
         <img
-          src="/public/assets/github.svg"
+          src="/assets/github.svg"
           alt="GithHub logo"
           className="w-12 h-12"
         />
@@ -29,7 +29,7 @@ const SocialLinks = () => {
 
       <a href="https://github.com" target="_blank" rel="noopener noreferrer">
         <img
-          src="/public/assets/github.svg"
+          src="/assets/github.svg"
           alt="GithHub logo"
           className="w-12 h-12"
         />
@@ -48,7 +48,7 @@ export default function Hero() {
         </div>
         <div className="md:w-10/12 md:ml-20 px-2">
           <div className="flex items-center justify-center gap-1">
-            <h3 className="text-orange1 text-xl md:text-2xl font-semibold">
+            <h3 className="text-orange1 text-xl md:text-2xl">
               Hi there, I'm Melinda Mazongo
             </h3>
             <div className="text-purple1">
@@ -74,19 +74,19 @@ export default function Hero() {
       </div>
       <div className="flex justify-center">
         <div className="flex lg:gap-x-6 gap-x-2 overflow-hidden justify-center lg:w-[85%]">
-          <img src="/public/assets/javascript.svg" alt=" JavaScript logo" />
-          <img src="/public/assets/react.svg" alt="React logo" />
-          <img src="/public/assets/tailwind.svg" alt="Tailwind logo" />
-          <img src="/public/assets/github.svg" alt="GitHub logo" />
+          <img src="/assets/javascript.svg" alt=" JavaScript logo" />
+          <img src="/assets/react.svg" alt="React logo" />
+          <img src="/assets/tailwind.svg" alt="Tailwind logo" />
+          <img src="/assets/github.svg" alt="GitHub logo" />
           <img
-            src="/public/assets/typescript.svg"
+            src="/assets/typescript.svg"
             alt="Typescript logo"
             className="max-sm:hidden"
           />
-          <img src="/public/assets/nodejs .svg" alt="NodeJS logo" />
-          <img src="/public/assets/jira.svg" alt="" className="w-10 h-10" />
+          <img src="/assets/nodejs.svg" alt="NodeJS logo" />
+          <img src="/assets/jira.svg" alt="" className="w-10 h-10" />
           <img
-            src="/public/assets/docker .svg"
+            src="/assets/docker.svg"
             alt="Docker logo"
             className="max-sm:hidden"
           />
