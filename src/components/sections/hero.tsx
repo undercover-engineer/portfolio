@@ -10,7 +10,7 @@ const SocialLinks = () => {
         rel="noopener noreferrer"
       >
         <img
-          src="/src/assets/linkedin.svg"
+          src="/public/assets/linkedin.svg"
           alt="LinkedIn logo"
           className="w-12 h-12"
         />
@@ -21,7 +21,7 @@ const SocialLinks = () => {
         rel="noopener noreferrer"
       >
         <img
-          src="/src/assets/github.svg"
+          src="/public/assets/github.svg"
           alt="GithHub logo"
           className="w-12 h-12"
         />
@@ -29,7 +29,7 @@ const SocialLinks = () => {
 
       <a href="https://github.com" target="_blank" rel="noopener noreferrer">
         <img
-          src="/src/assets/github.svg"
+          src="/public/assets/github.svg"
           alt="GithHub logo"
           className="w-12 h-12"
         />
@@ -74,19 +74,19 @@ export default function Hero() {
       </div>
       <div className="flex justify-center">
         <div className="flex lg:gap-x-6 gap-x-2 overflow-hidden justify-center lg:w-[85%]">
-          <img src="/src/assets/javascript.svg" alt=" JavaScript logo" />
-          <img src="/src/assets/react.svg" alt="React logo" />
-          <img src="/src/assets/tailwind.svg" alt="Tailwind logo" />
-          <img src="/src/assets/github.svg" alt="GitHub logo" />
+          <img src="/public/assets/javascript.svg" alt=" JavaScript logo" />
+          <img src="/public/assets/react.svg" alt="React logo" />
+          <img src="/public/assets/tailwind.svg" alt="Tailwind logo" />
+          <img src="/public/assets/github.svg" alt="GitHub logo" />
           <img
-            src="/src/assets/typescript.svg"
+            src="/public/assets/typescript.svg"
             alt="Typescript logo"
             className="max-sm:hidden"
           />
-          <img src="/src/assets/nodejs .svg" alt="NodeJS logo" />
-          <img src="/src/assets/jira.svg" alt="" className="w-10 h-10" />
+          <img src="/public/assets/nodejs .svg" alt="NodeJS logo" />
+          <img src="/public/assets/jira.svg" alt="" className="w-10 h-10" />
           <img
-            src="/src/assets/docker .svg"
+            src="/public/assets/docker .svg"
             alt="Docker logo"
             className="max-sm:hidden"
           />

@@ -22,7 +22,7 @@ export default function About() {
           </p>
         </div>
         <img
-          src="/src/assets/logo.svg"
+          src="/public/assets/logo.svg"
           alt="avatar"
           className="max-sm:hidden w-72 h-72 lg:pr-16"
         />
