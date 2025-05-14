@@ -1,7 +1,6 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
-import { motion, MotionValue, useScroll, useTransform } from "framer-motion";
+import { motion, MotionValue, useTransform } from "framer-motion";
 import { useRef } from "react";
-// import { useRef } from "react";
 
 type ProjectCardProps = {
   i: number;
