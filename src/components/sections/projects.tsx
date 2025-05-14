@@ -24,7 +24,7 @@ export default function Projects() {
   });
 
   return (
-    <>
+    <div id="projects">
       <SectionDivider title="Projects" />
       <main ref={container} className="relative mt-[5vh]">
         {projectsData.map((project, index) => {
@@ -47,6 +47,6 @@ export default function Projects() {
           );
         })}
       </main>
-    </>
+    </div>
   );
 }

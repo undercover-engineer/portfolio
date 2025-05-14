@@ -4,7 +4,7 @@ export const projectsData = [
     description:
       "A web app that allows developers to connect, share blogs, and find collaborators. Built using MERN stack. Auth, profile system, real-time chat included.",
     image: "/assets/phone.png",
-    tags: ["React", "MongoDB", "Tailwind CSS"],
+    tags: ["React", "MongoDB", "TailwindCSS"],
     color: "#FFE3FF",
     sourceCode: "https://www.github.com",
     liveDemo: "https://www.github.com",
@@ -14,7 +14,7 @@ export const projectsData = [
     description:
       "A web app that allows developers to connect, share blogs, and find collaborators. Built using MERN stack. Auth, profile system, real-time chat included.",
     image: "/assets/phone.png",
-    tags: ["React", "Tailwind CSS", "MongoDB"],
+    tags: ["React", "MongoDB", "Tailwind CSS"],
     color: "#FFFAE7",
     sourceCode: "https://www.github.com",
     liveDemo: "https://www.github.com",
@@ -24,7 +24,7 @@ export const projectsData = [
     description:
       "A web app that allows developers to connect, share blogs, and find collaborators. Built using MERN stack. Auth, profile system, real-time chat included.",
     image: "/assets/phone.png",
-    tags: ["MongoDB", "Express", "React", "Node"],
+    tags: ["MongoDB", "Express", "React","Node"],
     color: "#E7EBFF",
     sourceCode: "https://www.github.com",
     liveDemo: "https://www.github.com",
@@ -34,7 +34,7 @@ export const projectsData = [
     description:
       "A web app that allows developers to connect, share blogs, and find collaborators. Built using MERN stack. Auth, profile system, real-time chat included.",
     image: "/assets/phone.png",
-    tags: ["React", "MongoDB", "Tailwind CSS"],
+    tags: ["React", "MongoDB", "TailwindCSS"],
     color: "#FFFAE7",
     sourceCode: "https://www.github.com",
     liveDemo: "https://www.github.com",
@@ -44,7 +44,7 @@ export const projectsData = [
     description:
       "A web app that allows developers to connect, share blogs, and find collaborators. Built using MERN stack. Auth, profile system, real-time chat included.",
     image: "/assets/phone.png",
-    tags: ["React", "MongoDB", "Tailwind CSS"],
+    tags: ["React", "MongoDB", "TailwindCSS"],
     color: "#FFE3FF",
     sourceCode: "https://www.github.com",
     liveDemo: "https://www.github.com",

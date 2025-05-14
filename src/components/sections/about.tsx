@@ -1,9 +1,8 @@
 import SectionDivider from "../common/sectionDivider";
-import avatar from "../../../public/assets/logo.svg";
 
 export default function About() {
   return (
-    <div>
+    <div id="about">
       <SectionDivider title="About Me" />
       <div className="flex mt-10 justify-center xl:gap-x-10">
         <div className="w-11/12 md:w-3/5 lg:w-1/2 xl:w-2/5">
@@ -23,7 +22,7 @@ export default function About() {
           </p>
         </div>
         <img
-          src={avatar}
+          src="/assets/logo.svg"
           alt="avatar"
           className="max-sm:hidden w-72 h-72 lg:pr-16"
         />
