@@ -23,15 +23,15 @@ const SocialLinks = () => {
         <img
           src="/assets/github.svg"
           alt="GithHub logo"
-          className="w-12 h-12"
+          className="w-16 h-16"
         />
       </a>
 
       <a href="https://github.com" target="_blank" rel="noopener noreferrer">
         <img
-          src="/assets/github.svg"
+          src="/assets/resume.svg"
           alt="GithHub logo"
-          className="w-12 h-12"
+          className="w-10 h-10"
         />
       </a>
     </div>
@@ -55,10 +55,10 @@ export default function Hero() {
               <Icon icon="mdi:hand-wave" />
             </div>
           </div>
-          <h1 className="font-semibold text-2xl md:text-4xl text-center my-4 md:my-8">
+          <h1 className="text-2xl md:text-4xl text-center my-4 md:my-8">
             Full Stack Software Engineer{" "}
           </h1>
-          <p className="sm:text-xl text-center font-light max-sm:text-sm sm:max-w-2xl px-2 sm:mx-auto pb-10">
+          <p className="sm:text-xl 2xl:text-2xl text-center font-light max-sm:text-sm sm:max-w-2xl px-2 sm:mx-auto pb-10">
             I specialize in building web applications that solve real-world
             problems through clean code, thoughtful design an seamles user
             experiences. From intuitive interfaces to robist backend systems.

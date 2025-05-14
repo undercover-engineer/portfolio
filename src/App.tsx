@@ -7,7 +7,7 @@ import Projects from "./components/sections/projects";
 
 function App() {
   return (
-    <div>
+    <div className="2xl:max-w-7xl 2xl:mx-auto">
       <Header />
       <Hero />
       <Projects />

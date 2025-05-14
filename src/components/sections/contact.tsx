@@ -2,7 +2,7 @@ import SectionDivider from "../common/sectionDivider";
 
 export default function Contact() {
   return (
-    <div>
+    <div id="contact">
       <SectionDivider title="Contact" />
       <p className="font-semibold text-xl text-[#8812D7] md:text-2xl text-center my-8 md:mt-12">
         Get in touch with me
