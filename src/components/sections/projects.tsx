@@ -40,6 +40,8 @@ export default function Projects() {
               sourceCode={project.sourceCode}
               liveDemo={project.liveDemo}
               color={project.color}
+              appStore={project.appStore}
+              googlePlay={project.googlePlay}
               range={[index * 0.25, 1]}
               targetScale={targetScale}
               progress={scrollYProgress}
