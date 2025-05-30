@@ -27,12 +27,8 @@ const SocialLinks = () => {
         />
       </a>
 
-      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-        <img
-          src="/assets/resume.svg"
-          alt="GithHub logo"
-          className="w-10 h-10"
-        />
+      <a href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/resume.svg" alt="paper image" className="w-10 h-10" />
       </a>
     </div>
   );
@@ -60,9 +56,9 @@ export default function Hero() {
           </h1>
           <p className="sm:text-xl 2xl:text-2xl text-center font-light max-sm:text-sm sm:max-w-2xl px-2 sm:mx-auto pb-10">
             I specialize in building web applications that solve real-world
-            problems through clean code, thoughtful design an seamles user
-            experiences. From intuitive interfaces to robist backend systems.
-            Let's build something meaningful together
+            problems through clean code, thoughtful design and seamles user
+            experiences. From intuitive interfaces to robust backend systems.
+            Let's build something meaningful together.
           </p>
         </div>
         <div className="flex flex-col items-center gap-y-28 max-md:hidden">

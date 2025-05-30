@@ -14,6 +14,8 @@ type ProjectCardProps = {
   sourceCode?: string;
   liveDemo: string;
   color: string;
+  appStore?: string;
+  googlePlay?: string;
 };
 
 export default function ProjectCard({
@@ -28,6 +30,8 @@ export default function ProjectCard({
   sourceCode,
   liveDemo,
   color,
+  appStore,
+  googlePlay,
 }: ProjectCardProps) {
   const container = useRef(null);
   const scale = useTransform(progress, range, [1, targetScale]);
@@ -42,13 +46,13 @@ export default function ProjectCard({
       >
         <div className="overflow-hidden">
           <div
-            className="rounded-2xl p-2 flex items-center justify-center h-full"
+            className="rounded-2xl p-10 flex items-center justify-center h-full"
             style={{ backgroundColor: color }}
           >
             <img
               src={image}
               alt="Project Image"
-              className="max-w-full h-auto"
+              className="max-w-96 h-80 object-cover rounded-2xl"
             />
           </div>
         </div>
@@ -81,6 +85,22 @@ export default function ProjectCard({
                 <span>Preview</span>
               </div>
             </a>
+            {appStore && (
+              <a href={appStore} target="_blank" rel="noopener noreferrer">
+                <div className="flex bg-white gap-x-2 items-center p-3 text-purple1 rounded">
+                  <Icon icon="mdi:apple" className="w-6 h-6" />
+                  <span>App Store</span>
+                </div>
+              </a>
+            )}
+            {googlePlay && (
+              <a href={googlePlay} target="_blank" rel="noopener noreferrer">
+                <div className="flex bg-white gap-x-2 items-center p-3 text-black rounded">
+                  <Icon icon="mdi:google-play" className="w-6 h-6" />
+                  <span>Google Play</span>
+                </div>
+              </a>
+            )}
           </div>
         </div>
       </motion.div>
