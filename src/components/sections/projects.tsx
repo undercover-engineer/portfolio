@@ -26,7 +26,7 @@ export default function Projects() {
   return (
     <div id="projects">
       <SectionDivider title="Projects" />
-      <main ref={container} className="relative mt-[5vh]">
+      <main ref={container} className="relative mt-40">
         {projectsData.map((project, index) => {
           const targetScale = 1 - (projectsData.length - index) * 0.05;
           return (
