@@ -2,7 +2,7 @@ export const projectsData = [
   {
     title: "Health-e Simplified",
     description:
-      "The Health-e Simplified App, available on both mobile and web, offers an intuitive meal planner, calorie tracking, and personalized recipe suggestions to support your health goals. It simplifies healthy eating by providing tailored nutrition content and meal organization  , all in one easy-to-use platform.",
+      "The Health-e Simplified App, available on both AppStore and Google PlayStore, offers an intuitive meal planner, calorie tracking, and personalized recipe suggestions to support your health goals. It simplifies healthy eating by providing tailored nutrition content and meal organization  , all in one easy-to-use platform.",
     image: "/assets/health-simplified.png",
     tags: ["React", "React Native", "Strapi", "GraphQL"],
     color: "#FFE3FF",

@@ -70,34 +70,34 @@ export default function ProjectCard({
               </span>
             ))}
           </div>
-          <div className="flex gap-x-8">
+          <div className="flex max-sm:gap-x-1.5 gap-x-8 overflow-hidden">
             {sourceCode && (
               <a href={sourceCode} target="_blank" rel="noopener noreferrer">
-                <div className="flex bg-white gap-x-2 rounded items-center p-3 text-purple1">
+                <div className="flex bg-white gap-x-2 rounded items-center p-3 text-purple1 h-full">
                   <Icon icon="mdi:github" />
                   <span>GitHub </span>
                 </div>
               </a>
             )}
             <a href={liveDemo} target="_blank" rel="noopener noreferrer">
-              <div className="flex bg-white  gap-x-2 items-center p-3 text-orange1 rounded">
+              <div className="flex bg-white  gap-x-2 items-center p-3 text-orange1 rounded h-full">
                 <Icon icon="majesticons:open" />
-                <span>Preview</span>
+                <span className="max-sm:text-sm">Preview</span>
               </div>
             </a>
             {appStore && (
               <a href={appStore} target="_blank" rel="noopener noreferrer">
-                <div className="flex bg-white gap-x-2 items-center p-3 text-purple1 rounded">
+                <div className="flex bg-white gap-x-2 items-center p-3 text-purple1 rounded h-full">
                   <Icon icon="mdi:apple" className="w-6 h-6" />
-                  <span>App Store</span>
+                  <span className="max-sm:text-sm">App Store</span>
                 </div>
               </a>
             )}
             {googlePlay && (
               <a href={googlePlay} target="_blank" rel="noopener noreferrer">
-                <div className="flex bg-white gap-x-2 items-center p-3 text-black rounded">
+                <div className="flex bg-white gap-x-2 items-center p-3 text-black rounded h-full">
                   <Icon icon="mdi:google-play" className="w-6 h-6" />
-                  <span>Google Play</span>
+                  <span className="max-sm:text-sm">Google Play</span>
                 </div>
               </a>
             )}
